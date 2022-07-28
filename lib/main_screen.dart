@@ -45,7 +45,7 @@ class _MainScreenState extends State<MainScreen> {
   }
 
   String calculateBmi(int weight, int height) {
-    double bmi = weight / pow(height / 100, 2);
+    double bmi = weight / height / height * 10000;
     return bmi.toStringAsFixed(1);
   }
 
