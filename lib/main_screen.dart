@@ -18,7 +18,7 @@ class _MainScreenState extends State<MainScreen> {
   Color maleBoxColor = activeColor;
   Color femaleBoxColor = inActiveColor;
   int height = 180;
-  int weight = 20;
+  int weight = 60;
   int age = 25;
   String result = "";
   String resultDetail = "Result here";
