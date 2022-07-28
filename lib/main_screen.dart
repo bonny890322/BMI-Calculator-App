@@ -177,6 +177,18 @@ class _MainScreenState extends State<MainScreen> {
                           FloatingActionButton(
                             onPressed: () {
                               setState(() {
+                                if (weight > 0) {
+                                  weight--;
+                                }
+                              });
+                            },
+                            backgroundColor: activeColor,
+                            child: Icon(FontAwesomeIcons.minus,
+                                color: Colors.white),
+                          ),
+                          FloatingActionButton(
+                            onPressed: () {
+                              setState(() {
                                 weight++;
                               });
                             },
@@ -186,18 +198,6 @@ class _MainScreenState extends State<MainScreen> {
                           ),
                           SizedBox(
                             width: 10.0,
-                          ),
-                          FloatingActionButton(
-                            onPressed: () {
-                              setState(() {
-                                if (weight > 0) {
-                                  weight--;
-                                }
-                              });
-                            },
-                            backgroundColor: activeColor,
-                            child: Icon(FontAwesomeIcons.minus,
-                                color: Colors.white),
                           ),
                         ],
                       ),
@@ -225,6 +225,18 @@ class _MainScreenState extends State<MainScreen> {
                           FloatingActionButton(
                             onPressed: () {
                               setState(() {
+                                if (age > 0) {
+                                  age--;
+                                }
+                              });
+                            },
+                            backgroundColor: activeColor,
+                            child: Icon(FontAwesomeIcons.minus,
+                                color: Colors.white),
+                          ),
+                          FloatingActionButton(
+                            onPressed: () {
+                              setState(() {
                                 if (age < 100) {
                                   age++;
                                 }
@@ -236,18 +248,6 @@ class _MainScreenState extends State<MainScreen> {
                           ),
                           SizedBox(
                             width: 10.0,
-                          ),
-                          FloatingActionButton(
-                            onPressed: () {
-                              setState(() {
-                                if (age > 0) {
-                                  age--;
-                                }
-                              });
-                            },
-                            backgroundColor: activeColor,
-                            child: Icon(FontAwesomeIcons.minus,
-                                color: Colors.white),
                           ),
                         ],
                       ),
