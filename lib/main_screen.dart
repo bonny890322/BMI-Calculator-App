@@ -264,7 +264,7 @@ class _MainScreenState extends State<MainScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Text(
-                    'Developed with ❤ by Swapnil Srivastava',
+                    'Developed with ❤ by Bonny',
                     style: textStyle1,
                   ),
                   SizedBox(
@@ -273,22 +273,22 @@ class _MainScreenState extends State<MainScreen> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
+                      // FloatingActionButton(
+                      //   elevation: 0,
+                      //   onPressed: () {
+                      //     launch('https://swapnilsparsh.github.io');
+                      //   },
+                      //   backgroundColor: inActiveColor,
+                      //   child: Icon(FontAwesomeIcons.portrait,
+                      //       color: Colors.white),
+                      // ),
+                      // SizedBox(
+                      //   width: 10.0,
+                      // ),
                       FloatingActionButton(
                         elevation: 0,
                         onPressed: () {
-                          launch('https://swapnilsparsh.github.io');
-                        },
-                        backgroundColor: inActiveColor,
-                        child: Icon(FontAwesomeIcons.portrait,
-                            color: Colors.white),
-                      ),
-                      SizedBox(
-                        width: 10.0,
-                      ),
-                      FloatingActionButton(
-                        elevation: 0,
-                        onPressed: () {
-                          launch('https://github.com/swapnilsparsh');
+                          launch('https://github.com/bonny890322');
                         },
                         backgroundColor: inActiveColor,
                         child:
@@ -297,28 +297,28 @@ class _MainScreenState extends State<MainScreen> {
                       SizedBox(
                         width: 10.0,
                       ),
-                      FloatingActionButton(
-                        elevation: 0,
-                        onPressed: () {
-                          launch(
-                              'https://www.linkedin.com/in/swapnil-srivastava-sparsh/');
-                        },
-                        backgroundColor: inActiveColor,
-                        child: Icon(FontAwesomeIcons.linkedin,
-                            color: Colors.white),
-                      ),
-                      SizedBox(
-                        width: 10.0,
-                      ),
-                      FloatingActionButton(
-                        elevation: 0,
-                        onPressed: () {
-                          launch('https://twitter.com/swapnilsparsh');
-                        },
-                        backgroundColor: inActiveColor,
-                        child: Icon(FontAwesomeIcons.twitterSquare,
-                            color: Colors.white),
-                      ),
+                      // FloatingActionButton(
+                      //   elevation: 0,
+                      //   onPressed: () {
+                      //     launch(
+                      //         'https://www.linkedin.com/in/swapnil-srivastava-sparsh/');
+                      //   },
+                      //   backgroundColor: inActiveColor,
+                      //   child: Icon(FontAwesomeIcons.linkedin,
+                      //       color: Colors.white),
+                      // ),
+                      // SizedBox(
+                      //   width: 10.0,
+                      // ),
+                      // FloatingActionButton(
+                      //   elevation: 0,
+                      //   onPressed: () {
+                      //     launch('https://twitter.com/swapnilsparsh');
+                      //   },
+                      //   backgroundColor: inActiveColor,
+                      //   child: Icon(FontAwesomeIcons.twitterSquare,
+                      //       color: Colors.white),
+                      // ),
                     ],
                   ),
                 ],
